@@ -1,0 +1,67 @@
+public class NDisasters
+{
+    public static void main()  
+    {
+            JFrame f=new JFrame("Natural Disasters");     
+            f.setSize(1000,1000); 
+            f.setLayout(null);  
+            f.setVisible(true);
+            JButton b=new JButton("Earthquake");
+            b.setBounds(75,50,100,25);
+            f.add(b);
+            JButton b2=new JButton("Stampede");
+            b2.setBounds(75,100,100,25);
+            f.add(b2);
+            JButton b3=new JButton("Floods");
+            b3.setBounds(75,150,100,25);
+            f.add(b3);
+            JButton b4=new JButton("Hurricane");
+            b4.setBounds(75,200,100,25);
+            f.add(b4);
+            JButton b5=new JButton("Wildfire");
+            b5.setBounds(75,250,100,25);
+            f.add(b5);
+    }
+}
+
+-----
+
+public class MMDisasters
+{
+    public static void main()
+    {
+            JFrame f1=new JFrame("Man Made Disasters");     
+            f1.setSize(1000,1000); 
+            f1.setLayout(null);  
+            f1.setVisible(true);
+            JButton bu=new JButton("Nuclear Disaster");
+            bu.setBounds(75,50,300,25);
+            f1.add(bu);
+            JButton bu1=new JButton("Fire Accident");
+            bu1.setBounds(75,100,300,25);
+            f1.add(bu1);
+            JButton bu2=new JButton("Railway Accident");
+            bu2.setBounds(75,150,300,25);
+            f1.add(bu2);
+    }
+}
+
+-----
+
+public class MainPage
+{
+    public static void main()
+    {
+        JFrame f2=new JFrame("Main Page");
+        f2.setSize(1000,1000); 
+        f2.setLayout(null);  
+        f2.setVisible(true);
+        JButton but=new JButton("Natural Disasters");
+        but.setBounds(75,50,300,25);
+        f2.add(but);
+        JButton but1=new JButton("Man Made Disasters");
+        but1.setBounds(75,100,300,25);
+        f2.add(but1);
+    }
+}
+    
